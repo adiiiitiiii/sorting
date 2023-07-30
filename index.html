@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sorting visulizer</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <header id="head">
+      <div id="main_heading">
+        <h1>Comparison Sorting Algorithm</h1>
+      </div>
+
+      <div class="navbar_buttons">
+        <button type="button">Randomize Array</button>
+        <button type="button">Insertion Sort</button>
+        <button type="button">Bubble Sort</button>
+        <button type="button">Selection Sort</button>
+        <button type="button">Merge Sort</button>
+        <button type="button">Quick Sort</button>
+        <button type="button">Shell Sort</button>
+        <button type="button">Change Size</button>
+      </div>
+    </header>
+    <main>
+        <canvas id="animation" width="1000" height="400"></canvas>
+    </main>
+
+    <footer>
+      <div class="footer_buttons">
+        <button type="button" class="button">Skip Back</button>
+        <button type="button" class="button">Step Back</button>
+        <button type="button" class="button">Pause</button>
+        <button type="button" class="button">Step Forward</button>
+        <button type="button" class="button">Skip Forward</button>
+
+        <div class="animation_speed">
+        <input type="range" min="1" max="100" value="50" class="slider">
+        <b><label for="Speed" id="lable_speed">Animation Speed</label></b>
+        </div>
+
+        <label for="W" class="button">W:</label>
+        <input type="text" name="W" class="WH" class="button">
+        <label for="H" class="button">H:</label>
+        <input type="text" name="H" class="WH" class="button">
+        <button type="button" class="button">Change Canvas Size</button>
+        <button type="button" class="button">Move Controls</button>
+      </div>
+
+      <div id="last_heading">
+        <h3>Algorithm Visulizations</h3>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="index.js"></script>
+    
+</body>
+</html>
